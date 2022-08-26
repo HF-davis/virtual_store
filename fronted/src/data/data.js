@@ -1,130 +1,130 @@
 export const data = [
     {
       id: 1,
-      name: 'Double Cheeseburger',
-      category: 'burger',
+      name: 'Monster Ultra 473ml',
+      category: 'Energizante',
       image:
-        'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+        'https://shop.mannvend.com/wp-content/uploads/monster_ultra_silver_500ml.jpg',
       price: '$$$$',
     },
     {
       id: 2,
-      name: 'Bacon Cheeseburger',
-      category: 'burger',
+      name: 'Monster Energy 473ml',
+      category: 'Energizante',
       image:
-        'https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+        'https://rockosdiner.com/wp-content/uploads/2020/04/L1507227.jpg',
       price: '$',
     },
     {
       id: 3,
-      name: 'Mushroom Burger',
-      category: 'burger',
+      name: 'Monster mango loco 473ml',
+      category: 'Energizante',
       image:
-        'https://images.unsplash.com/photo-1608767221051-2b9d18f35a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+        'https://www.bahiaprincipecongelados.com/fotos/reducidas/800-monster-mango-loco-500-ml-5000.jpg',
       price: '$$',
     },
     {
       id: 4,
-      name: 'Loaded Burger',
-      category: 'burger',
+      name: 'Hielo Iglu 1.5Kg',
+      category: 'Hielo',
       image:
-        'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+        'https://images.rappi.pe/products/213160-1583786435507.png?d=500x500',
       price: '$$$',
     },
     {
       id: 5,
-      name: 'Feta & Spinnach',
-      category: 'pizza',
+      name: 'Cerveza Pilsen Six pack botella 310ml',
+      category: 'Cerveza',
       image:
-        'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://plazavea.vteximg.com.br/arquivos/ids/312655-1000-1000/20008540.jpg?v=637219605212570000',
       price: '$$',
     },
     {
       id: 6,
-      name: 'Supreme Pizza',
-      category: 'pizza',
+      name: 'Cerveza Corona six pack botella 355ml',
+      category: 'Cerveza',
       image:
-        'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://dislicores.vteximg.com.br/arquivos/ids/156880-1000-1000/Cerveza_370001_1.jpg?v=637225867239530000',
       price: '$$$',
     },
     {
       id: 7,
-      name: 'Meat Lovers',
-      category: 'pizza',
+      name: 'Bebida Evervess 1.5Lt',
+      category: 'Gaseosa',
       image:
-        'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        'https://dojiw2m9tvv09.cloudfront.net/43186/product/X_200756846676.jpg?50',
       price: '$$$$',
     },
     {
       id: 8,
-      name: 'Cheese Pizza',
-      category: 'pizza',
+      name: 'Gaseosa Coca Cola 1.5Lt',
+      category: 'Gaseosa',
       image:
-        'https://images.unsplash.com/photo-1548369937-47519962c11a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlJTIwcGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://www.stockholmpizza.com.tr/image/cache/catalog/coca-cola-15-lt-7762-1000x1000.jpg',
       price: '$',
     },
     {
       id: 9,
-      name: 'Kale Salad',
-      category: 'salad',
+      name: 'Cigarro Lucky Strike',
+      category: 'Cigarro',
       image:
-        'https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://plazavea.vteximg.com.br/arquivos/ids/331689-1000-1000/205559.jpg?v=637267232372370000',
       price: '$$',
     },
     {
       id: 10,
-      name: 'Ceasar Salad',
-      category: 'salad',
+      name: 'Cigarro Malboro Double Burst Mentol',
+      category: 'Cigarro',
       image:
-        'https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://cdn.shopify.com/s/files/1/0556/9603/1902/products/IMG_5729.jpg?v=1617715284',
       price: '$$$',
     },
     {
       id: 11,
-      name: 'Loaded Salad',
-      category: 'salad',
+      name: 'Vino Tabernero Gran José semi seco 750ml',
+      category: 'Vino',
       image:
-        'https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://plazavea.vteximg.com.br/arquivos/ids/402467-1000-1000/70027.jpg?v=637346801043800000',
       price: '$$$$',
     },
     {
       id: 12,
-      name: 'Fruit Salad',
-      category: 'salad',
+      name: 'Whisky Johnnie Walker Platinum Label 750ml',
+      category: 'Whisky',
       image:
-        'https://images.unsplash.com/photo-1564093497595-593b96d80180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJ1aXQlMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
+        'https://www.imigrantesbebidas.com.br/bebida/images/products/full/10011_Whisky_Johnnie_Walker_Platinum_Label_750_ml.jpg',
       price: '$',
     },
     {
       id: 13,
-      name: 'Wings',
-      category: 'chicken',
+      name: 'Inka Chips Parpas Artesanales 142gr',
+      category: 'Snack',
       image:
-        'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://socialdrinks.pe/wp-content/uploads/2021/02/7750526000895.png',
       price: '$$',
     },
     {
       id: 14,
-      name: 'Baked Chicken',
-      category: 'chicken',
+      name: 'Snack Pringles Crema y Cebolla 124gr',
+      category: 'Snack',
       image:
-        'https://images.unsplash.com/photo-1594221708779-94832f4320d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://mmkfoods.pe/wp-content/uploads/2020/09/pringles-cebolla-1024x1024.png',
       price: '$$$$',
     },
     {
       id: 15,
-      name: 'Chicken Tenders',
-      category: 'chicken',
+      name: 'Piqueo Snack Original 45gr',
+      category: 'Snack',
       image:
-        'https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        'https://plazavea.vteximg.com.br/arquivos/ids/324537-1000-1000/20179458.jpg?v=637252459404070000',
       price: '$',
     },
     {
       id: 16,
-      name: 'Chicken Kabob',
-      category: 'chicken',
+      name: 'Chocolate Vizzio Costa 72gr',
+      category: 'Confitería',
       image:
-        'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        'https://plazavea.vteximg.com.br/arquivos/ids/553661-1000-1000/153249.jpg?v=637426559570470000',
       price: '$$$',
     },
   ];
@@ -132,50 +132,50 @@ export const data = [
   export const categories = [
     {
       id: 1,
-      name: 'Fast Food',
+      name: 'Bebidas Alcohólicas',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/FastFood_BrowseHome@3x.png',
+        'https://1.bp.blogspot.com/-4OrcogQ2lHE/WBF1s8XY9pI/AAAAAAAAAEs/rbXwl_UlptE5aoCeszGnsBlon38yn8XxACLcB/s1600/ba.jpg',
     },
     {
       id: 2,
-      name: 'Pizza',
+      name: 'Cigarros',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Pizza_BrowseHome@3x.png',
+        'https://info7rm.blob.core.windows.net.optimalcdn.com/images/2018/04/08/philip.jpg',
     },
     {
       id: 3,
-      name: 'Wings',
+      name: 'Bebidas no Alcohólicas',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Wings_BrowseHome@3x.png',
+        'https://miguelangelluna.mx/wp-content/uploads/2020/04/refrescos.jpg',
     },
     {
       id: 4,
-      name: 'Indian',
+      name: 'Piqueos y Snacks',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Indian_BrowseHome@3x.png',
+        'https://www.mashed.com/img/gallery/popular-sun-chips-flavors-ranked-worst-to-best/l-intro-1623414863.jpg',
     },
     {
       id: 5,
-      name: 'Latest Deals',
+      name: 'Hielo',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Deals_BrowseHome@3x.png',
+        'https://http2.mlstatic.com/D_NQ_NP_758985-MLV42503780271_072020-F.jpg',
     },
     {
       id: 6,
-      name: 'Restaurant Rewards',
+      name: 'Preservativos',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/RestoRewards_BrowseHome@3x.png',
+        'https://mujeresymadresmagazine.com/wp-content/uploads/2017/04/preservativos-curiosos.jpg',
     },
     {
       id: 7,
-      name: 'Best Overall',
+      name: 'Cuidado personal',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/TopEats_Browse%20Home@3x.png',
+        'https://3.bp.blogspot.com/-FVNwrQzfsCU/VIW7iNT_fDI/AAAAAAAAAbg/3KbQ8DBEOwo/s1600/actividades%2B086.jpg',
     },
     {
       id: 8,
-      name: 'Shipped Free',
+      name: 'Confitería',
       image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
+        'https://i.etsystatic.com/24654887/r/il/e76eac/2512638693/il_1588xN.2512638693_oozl.jpg',
     },
   ];

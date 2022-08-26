@@ -23,18 +23,20 @@ const [foods,setFoods]=useState(data);
     }
     return(
         <div className="max-w-[1640px] m-auto px-4 py-12">
-            <h1 className="text-orange-600 font-bold text-4xl text-center">Top Rated Menu Items</h1>
+            <h1 className="text-orange-600 font-bold text-4xl text-center">Productos Destacados</h1>
             {/**Filter Row */}
             <div className="flex flex-col">
                 {/*Filter Type*/}
                 <div>
                     <p className="font-bold text-gray-700">Filter Type</p>
                     <div className="flex justify-between flex-wrap">
-                        <button onClick={()=>setFoods(data)} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">All</button>
-                        <button onClick={()=>filterType('burger')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Burguers</button>
-                        <button onClick={()=>filterType('pizza')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Pizzas</button>
-                        <button onClick={()=>filterType('salad')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Salads</button>
-                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Chicken</button>
+                        <button onClick={()=>setFoods(data)} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Todo</button>
+                        <button onClick={()=>filterType('Energizante')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Bebidas no alcohólicas</button>
+                        <button onClick={()=>filterType('pizza')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Bebidas alcohólicas</button>
+                        <button onClick={()=>filterType('salad')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Cigarros</button>
+                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Hielo</button>
+                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Preservativos</button>
+                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Pickeos y Snacks</button>
                     </div>
                 </div>
 
@@ -52,9 +54,9 @@ const [foods,setFoods]=useState(data);
             {/**Display foods */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
                 {foods.map((item,index)=>(
-                    <div key={index} className='border shadow-lg  rounded-lg hover:scale-105 duration-300'>
+                    <div key={index} className='border shadow-lg  border-neutral-300 rounded-lg hover:scale-105 duration-300'>
                         <img src={item.image} alt={item.name}
-                        className="w-full h-[200px] object-cover rounded-t-lg"/>
+                        className="w-full h-[350px] object-cover rounded-t-lg"/>
                         <div className="flex justify-between px-2 py-4">
                             <p className="font-bold">{item.name}</p>
                             <p>

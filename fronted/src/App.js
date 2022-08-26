@@ -5,6 +5,7 @@ import HeadlineCards from './components/HeadlineCards';
 import Hero from './components/Hero';
 import Category from './components/Category';
 import Navbar from './components/Navbar';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HeadlineCards/>
       <Food/>
       <Category/>
+      <Modal/>
     </div>
   );
 }
