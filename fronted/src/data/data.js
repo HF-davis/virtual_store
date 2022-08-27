@@ -179,3 +179,75 @@ export const data = [
         'https://i.etsystatic.com/24654887/r/il/e76eac/2512638693/il_1588xN.2512638693_oozl.jpg',
     },
   ];
+
+  export const Cervezas=[
+    {
+      id: 1,
+      name: 'Corona Hard Seltzer Tropical 355ml',
+      category: 'Cerveza',
+      image:
+        'https://images.gotoliquorstore.com/product/1000016267/1d88f994-d42f-4eaf-9bcc-08daaf025d55_510.jpg',
+      price: '$$$',
+    },
+    {
+      id: 2,
+      name: 'Corona Refresca Más 355ml',
+      category: 'Cerveza',
+      image:
+        'https://images.heb.com/is/image/HEBGrocery/004950072?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0',
+      price: '$$$',
+    },
+    {
+      id: 3,
+      name: 'Cerveza Cusqueña Six Pack Trigo 355ml',
+      category: 'Cerveza',
+      image:
+        'https://ilomercado-assets.s3.amazonaws.com/thumbs/cache/b6/1c/b61cdf56b1c15278e21cdb871ba1e660.png',
+      price: '$$$',
+    },
+    {
+      id: 4,
+      name: 'Cerveza Cusqueña Malta Six Pack Lata 355ml',
+      category: 'Cerveza',
+      image:
+        'https://dojiw2m9tvv09.cloudfront.net/57428/product/X_cervezacusquenamaltasixpacklata355ml9265.jpg?153',
+      price: '$$$',
+    }
+  ]
+
+  export const Gaseosas=[
+    {
+      id: 1,
+      name: 'Gaseosa Pepsi 1 Lt',
+      category: 'Gaseosa',
+      image:
+        'https://plazavea.vteximg.com.br/arquivos/ids/318909-1000-1000/20075138.jpg?v=637238860728630000',
+      price: '$$$',
+    },
+    {
+      id: 2,
+      name: 'Gaseosa Coca-Cola 1,25 Lt',
+      category: 'Gaseosa',
+      image:
+        'https://walmartar.vteximg.com.br/arquivos/ids/903334-1000-1000/Gaseosa-Coca-Cola-Sabor-Original-1-25-Lt-1-129418.jpg?v=637633479815500000',
+      price: '$$$',
+    }
+    ,
+    {
+      id: 3,
+      name: 'Gaseosa Scheweppes  Citrus 1.5 L',
+      category: 'Cerveza',
+      image:
+        'https://carrefourar.vtexassets.com/arquivos/ids/191136/7790895006722_01.jpg?v=637511787514070000',
+      price: '$$$',
+    },
+    {
+      id: 4,
+      name: 'Gaseosa Inka Cola Original 1.5 L',
+      category: 'Gaseosa',
+      image:
+        'https://www.lafruteria.cl/wp-content/uploads/2020/06/7801610231517.jpg',
+      price: '$$$',
+    }
+
+  ]

@@ -32,11 +32,11 @@ const [foods,setFoods]=useState(data);
                     <div className="flex justify-between flex-wrap">
                         <button onClick={()=>setFoods(data)} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Todo</button>
                         <button onClick={()=>filterType('Energizante')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Bebidas no alcohólicas</button>
-                        <button onClick={()=>filterType('pizza')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Bebidas alcohólicas</button>
-                        <button onClick={()=>filterType('salad')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Cigarros</button>
-                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Hielo</button>
+                        <button onClick={()=>filterType('Cerveza')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Bebidas alcohólicas</button>
+                        <button onClick={()=>filterType('Cigarro')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Cigarros</button>
+                        <button onClick={()=>filterType('Hielo')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Hielo</button>
                         <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Preservativos</button>
-                        <button onClick={()=>filterType('chicken')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Pickeos y Snacks</button>
+                        <button onClick={()=>filterType('Snack')} className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Pickeos y Snacks</button>
                     </div>
                 </div>
 
