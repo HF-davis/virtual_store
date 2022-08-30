@@ -15,10 +15,16 @@ const BAlcoholicas=()=>{
                 
                 <ul>
                     <li className="my-5 ml-20">Cerveza</li>
+                    <li className="my-5 ml-20">Cerveza Artesanal</li>
                     <li className="my-5 ml-20">Vinos</li>
-                    <li className="my-5 ml-20">Whisky</li>
                     <li className="my-5 ml-20">Ron</li>
+                    <li className="my-5 ml-20">RTD (listo para tomar)</li>
+                    <li className="my-5 ml-20">Whisky</li>
+                    <li className="my-5 ml-20">Vodka</li>
                     <li className="my-5 ml-20">Pisco</li>
+                    <li className="my-5 ml-20">Espumante</li>
+                    <li className="my-5 ml-20">Otros licores</li>
+                    
 
                 </ul>
             </section>

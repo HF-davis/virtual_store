@@ -1,6 +1,6 @@
 {
   "name": "fronted",
-  "homepage":"https://HF-davis.github.io/virtual_store/fronted",
+  "homepage":"https://HF-davis.github.io/virtual_store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,6 +28,7 @@
       "react-app/jest"
     ]
   },
+
   "browserslist": {
     "production": [
       ">0.2%",

@@ -9,7 +9,7 @@ const Navbar=()=>{
     const [devpick,setDevPick]=useState(true);
 
     return(
-        <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
+        <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 ">
             {/*left side */}
             <div className="flex items-center">
                 <div onClick={()=>setNav(!nav)} className="cursor-pointer">
@@ -25,7 +25,7 @@ const Navbar=()=>{
                 </div>
             </div>
             {/**search input */}
-            <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+            <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px] border-2 border-orange-500">
                 <AiOutlineSearch size={20}/>
                 <input  className="bg-transparent p-2 w-full focus:outline-none" type='text' placeholder="Search foods" />
             </div>

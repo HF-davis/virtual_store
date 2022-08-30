@@ -4,7 +4,7 @@ const BNoAlcoholicas=()=>{
 
     //const [gas,setGas]=useState(Gaseosas);
     return(
-        <div className="flex">
+        <div className=" max-w-[1640px] flex">
             <section>
                 <div className="ml-20 my-5 border-2 border-l-orange-400 border-b-transparent border-t-transparent border-r-transparent">
                 <h2 className="font-bold ">Bebidas No Alcohólicas</h2>
@@ -14,9 +14,11 @@ const BNoAlcoholicas=()=>{
                     <li className="my-5 ml-20">Gaseosas</li>
                     <li className="my-5 ml-20">Agua</li>
                     <li className="my-5 ml-20">Energizante</li>
-                    <li className="my-5 ml-20">Rehidratantes</li>
                     <li className="my-5 ml-20">Jugo</li>
-
+                    <li className="my-5 ml-20">Rehidratantes</li>
+                    <li className="my-5 ml-20">Saborizadas</li>
+                    <li className="my-5 ml-20">Te</li>
+                    
                 </ul>
             </section>
             <section className="grid grid-cols-2 lg:grid-cols-3 gap-6 pt-4 ml-10">
